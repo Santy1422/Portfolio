@@ -9,16 +9,16 @@ const Projects = () => {
     {
       pic: "https://i.ibb.co/YfS1VHR/screenshot-app-powerbi-com-2023-07-24-00-54-53.png",
       live:"https://app.powerbi.com/view?r=eyJrIjoiNGQ1N2Y1NWUtMTE1My00ODU2LWFmOWMtZjBkZDlmNzdiN2ZkIiwidCI6Ijg4MmMwYzdjLTIzZGItNDBlNi05OTkyLTViMmMwZjA2NGUwNSIsImMiOjR9",
-      title: "Nombre del proyecto",
+      title: "Bussines Analityc",
       git: "#enlace",
-      descripion: "Descripcion",
+      descripion: "The Business Analytics project is a comprehensive data analysis and visualization endeavor aimed at providing valuable insights into various aspects of a business. Leveraging the power of data, this project employs advanced analytical techniques and visualizations to uncover hidden patterns, trends, and key performance indicators (KPIs). The ultimate goal is to assist decision-makers in making informed choices that optimize business strategies and enhance overall efficiency.      ",
     },
     {
       pic: "https://i.ibb.co/yYL4Tn7/SEE-MY-CODE.png",
       live:"#",
       git: "#",
       title: "See my code",
-      descripion: "Descripcion",
+      descripion: "The SQL work that I do at work is confidential, but I have taken some of the most interesting SQL transformations and de-identified them so I could share them publicly in my portfolio. Since the release of ChatGPT I have also spent a considerable amount of my freetime prompt engineering, because I had some Python code that I knew I wanted to write but did not yet have the skillset to write alone. With the help of my AI friend I have written some pretty neat Python code(s?), which I have put into my portfolio. Some of them, like my Tableau Workbook Documentation Script, I use regularly in my job.",
     },
   
   ]

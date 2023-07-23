@@ -36,7 +36,7 @@ const About = () => {
             width={300}
             height={300}
 
-              src={"/aboutpic2.jpg"}
+              src={"/professionalpicture.jpg"}
 
               alt="my professional picture"
 
@@ -66,8 +66,7 @@ const About = () => {
               Biography
             </h5>
             <p className='mt-0 pt-0 text-[18px]  text-gray-400  '>
-      Hi, my name is Mauricio Benegas, i`m Data Sciency.............
-            </p>
+            Hi, my name is Mauricio Benegas, and I'm a Data Scientist with a passion for exploring and extracting insights from complex datasets. With a strong background in statistics, machine learning, and programming, I thrive on tackling challenging data problems and creating innovative solutions. My expertise includes data preprocessing, feature engineering, and building predictive models to optimize business strategies and decision-making processes. I am adept at utilizing programming languages like Python and R, as well as various data analysis and visualization tools. As a dedicated Data Scientist, I am committed to continuous learning and staying up-to-date with the latest advancements in the field. I am enthusiastic about contributing my skills and knowledge to drive data-centric solutions and make a positive impact in diverse industries.            </p>
         </motion.div>
       </div>
 
