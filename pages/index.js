@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>Mauricio Benegas portfolio</title>
       </Head>
-      <main className='bg-[rgb(36,36,36)] text-white h-[100%] relative snap-y overflow-auto snap-mandatory tracking-wide  z-0'>
+      <main className='bg-[rgb(38,67,233)] text-white h-[100%] relative snap-y overflow-auto snap-mandatory tracking-wide  z-0'>
         {/* header */}
         <section id='home'>
           <Header />
@@ -33,16 +33,16 @@ export default function Home() {
         {/* <section id='experience' className='snap-start'>
           <WorkingExperience />
         </section > */}
-
+    <section id='projects' className='snap-start'>
+        <Projects />
+        </section>
         {/* skills */}
         <section id='skills' className='snap-start'>
           <Skills />
         </section>
 
         {/* projects */}
-        <section id='projects' className='snap-start'>
-        <Projects />
-        </section>
+    
 
 
 

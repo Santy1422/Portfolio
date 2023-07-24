@@ -78,7 +78,7 @@ const Header = () => {
             fgColor='gray'
             bgColor='transparent'
             />
-            <p className='uppercase hidden sm:inline-block text-sm text-gray-400'>get in touch</p>
+            <p className='uppercase hidden sm:inline-block text-sm text-white'>get in touch</p>
           </Link>
         </motion.div>
     </header>

@@ -23,32 +23,32 @@ const Introduction = () => {
       ? 
       <button onClick={()=>setDisplayMenu(!displayMenu)}><BiMenu className="text-4xl bg-slate-300 text-[rgb(36,36,36)] self-start " /></button> 
       :
-      <div className="fixed z-50 top-0 left-0 right-0 bottom-0 text-lg bg-gray-500  text- bg-opacity-70  duration-200">
-        <div className=" fixed top-0 left-0 bg-blend-overlay right-[15%] es:right-[40%] md:right-[60%] bottom-0  pt-10 pl-10 flex justify-between items-start text-gray-500 bg-[rgb(36,36,36)] pr-5 ">
+      <div className="fixed z-50 top-0 left-0 right-0 bottom-0 text-lg bg-white text- bg-opacity-70  duration-200">
+        <div className=" fixed top-0 left-0 bg-blend-overlay right-[15%] es:right-[40%] md:right-[60%] bottom-0  pt-10 pl-10 flex justify-between items-start text-whitebg-[rgb(36,36,36)] pr-5 ">
           <div className="text-xl flex flex-col gap-2 ">
-          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#home" className="flex gap-2 items-center border-b border-gray-500 w-fit px-2 ">
-            <AiOutlineHome className=" text-violet-400" />
+          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#home" className="flex gap-2 items-center border-b border-whitew-fit px-2 ">
+            <AiOutlineHome className=" text-blue-400" />
             <button className={`introButtons  capitalize  hover:scale-x-75 duration-125`}>Home</button>
           </Link>
-          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#about" className="flex gap-3  border-gray-500 items-center border-b w-fit p-2 ">
-          <FcReading className="text-violet-400" />
+          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#about" className="flex gap-3  border-whiteitems-center border-b w-fit p-2 ">
+          <FcReading className="text-blue-400" />
             <button className={`introButtons capitalize hover:scale-x-75 duration-125 `}>about</button>
           </Link>
-          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#experience" className="flex gap-3 items-center  border-gray-500 border-b w-fit p-2 ">
-          <GiAchievement className="text-violet-400" />
+          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#experience" className="flex gap-3 items-center  border-whiteborder-b w-fit p-2 ">
+          <GiAchievement className="text-blue-400" />
             <button className={`introButtons capitalize hover:scale-x-75 duration-125 `}>experience</button>
           </Link>
-          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#skills" className="flex gap-5   border-gray-500 items-center border-b w-fit p-2 ">
-          <GiSkills className="text-violet-400" />
+          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#skills" className="flex gap-5   border-whiteitems-center border-b w-fit p-2 ">
+          <GiSkills className="text-blue-400" />
             <button className={`introButtons capitalize hover:scale-x-75 duration-125 `}>skills</button>
           </Link>
-          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#projects" className="flex  border-gray-500 gap-3 items-center border-b w-fit p-2 ">
-          <AiOutlineFundProjectionScreen className="text-violet-400" />
+          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#projects" className="flex  border-whitegap-3 items-center border-b w-fit p-2 ">
+          <AiOutlineFundProjectionScreen className="text-blue-400" />
             <button className="introButtons capitalize hover:scale-x-75 duration-125 ">projects</button>
           </Link>
 
-          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#contacts" className="flex gap-3  border-gray-500 items-center border-b w-fit p-2 ">
-          <MdContactMail className="text-violet-400" />
+          <Link onClick={()=> setDisplayMenu(!displayMenu)} href="#contacts" className="flex gap-3  border-whiteitems-center border-b w-fit p-2 ">
+          <MdContactMail className="text-blue-400" />
             <button className="introButtons capitalize hover:scale-x-75 duration-125 ">Contacts</button>
           </Link>
           
@@ -68,7 +68,7 @@ const Introduction = () => {
       />
         </div>
       <div className="z-40">
-        <h2 className=" text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+        <h2 className=" text-sm uppercase text-whitepb-2 tracking-[15px]">
           Data Analyst
         </h2>
         <h1 className="text-2xl sm:text-4xl lg:text-5xl font-semibold scroll-px-10  text-gray-400">
@@ -86,7 +86,7 @@ const Introduction = () => {
             />
           </h1>
           <div className="">
-          <h2 className=" text-sm uppercase text-gray-500 pb-2 mt-5 tracking-[5px]">
+          <h2 className=" text-sm uppercase text-whitepb-2 mt-5 tracking-[5px]">
           {/* GREAT APE&#39;S CODE */}
         </h2>
           </div>
