@@ -22,7 +22,6 @@ const Projects = () => {
     },
  
   ];
-
   return (
     <div className='mb-16 relative text-center max-w-4/5 mx-auto items-center'>
       <h3 className={`font-bold ${styles.headertext} uppercase tracking-[10px] es:tracking-[15px] sm:tracking-[20px] text-white text-4xl`}>projects</h3>
