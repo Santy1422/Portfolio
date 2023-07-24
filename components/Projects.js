@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import styles from './styles.module.css';
-import Image from 'next/image';
 
 const Projects = () => {
   const projects = [
@@ -22,6 +22,7 @@ const Projects = () => {
     },
  
   ];
+
   return (
     <div className='mb-16 relative text-center max-w-4/5 mx-auto items-center'>
       <h3 className={`font-bold ${styles.headertext} uppercase tracking-[10px] es:tracking-[15px] sm:tracking-[20px] text-white text-4xl`}>projects</h3>
@@ -45,7 +46,7 @@ const Projects = () => {
               transition={{ duration: 1.2, delay: 0.3 }}
               whileInView={{ y: 0, opacity: 1 }}
             >
-              <Image
+              <img
                 src={project.pic}
                 alt="project"
                 className='w-60'
@@ -61,17 +62,19 @@ const Projects = () => {
               {project.live.length > 5 ? (
                 <Link href={project.live} target="_blank" className={`rounded-lg ${styles.button} text-base p-2 flex justify-center items-center gap-x-4 hover:border-[#5C8A3E]/40 hover:text-white`}>
                   <span className='hidden sm:block'>Live</span>
+                  <Image src='/live.svg' width={16} height={16} alt='live icon' />
                 </Link>
               ) : null}
               <Link target="_blank" href={project.git} className={`rounded-lg ${styles.button} text-base p-2 hover:border-[#5C8A3E]/40 hover:text-white flex justify-center items-center gap-x-2`} >
                 <span className='hidden sm:block'>GitHub</span>
+                <img src='/github.svg' width={16} height={16} alt='live icon' />
               </Link>
             </div>
-            <div className='w-full bg-blue-400 ltf-0 h-[3px] mt-4 -skew-y-0' />
+            <div className='w-full bg-[#5C8A3E]/10 ltf-0 h-[3px] mt-4 -skew-y-0' />
           </motion.div>
         ))}
       </div>
-      <div className='w-full absolute top-[45%] bg-blue-400ltf-0 h-[400px] -skew-y-12 z-0' />
+      <div className='w-full absolute top-[45%] bg-[#5C8A3E]/10 ltf-0 h-[400px] -skew-y-12 z-0' />
     </div>
   );
 };
