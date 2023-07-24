@@ -1,5 +1,4 @@
 import {motion} from 'framer-motion';
-import Image from 'next/image'
 import {BsStarHalf} from 'react-icons/bs'
 
 import styles from './styles.module.css'
@@ -23,7 +22,7 @@ const ExperienceCard = ({ex}) => {
         x: 0,
       }}
       >
-        <Image
+        <img
         src={ex.pic}
         width={128}
         height={128}

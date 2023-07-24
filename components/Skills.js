@@ -1,6 +1,5 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-import Image from 'next/image'
 import {TbBrandNextjs, TbBrandJavascript,TbBrandTailwind, TbBrandHtml5 } from 'react-icons/tb'
 import {FaReact, FaBootstrap, FaSass, FaGitAlt } from 'react-icons/fa'
 import {SiRubyonrails, SiRedux, SiMysql, SiGraphql, SiMongodb, SiCss3, SiNodedotjs, SiExpress, SiPostgresql, SiJava, SiWebpack } from 'react-icons/si'
@@ -96,7 +95,7 @@ const Skills = () => {
       <div className={mainContainer}>
         <div className={` ${submainContainer} ${commonStyles}`}>
           
-          <Image className='w-full h-full' src='/sanity.webp' alt='sanity logo'  width={60} height={60} />
+          <img className='w-full h-full' src='/sanity.webp' alt='sanity logo'  width={60} height={60} />
         </div>
 
         <div className={`${childContainer} z-10`}>

@@ -8,7 +8,6 @@ import { GrContact} from 'react-icons/gr';
 import {GiSkills, GiAchievement} from 'react-icons/gi';
 import {FcReading} from 'react-icons/fc';
 import {MdOutlinePreview, MdContactMail} from 'react-icons/md';
-import Image from "next/image";
 import Link from "next/link";
 import BackgroundCircle from "./BackgroundCircle";
 
@@ -60,7 +59,7 @@ const Introduction = () => {
       </div>
       <BackgroundCircle />
       <div>
-      <Image  src='/professionalpicture.jpg'
+      <img  src='/professionalpicture.jpg'
       height={170}
       width={170}
       alt="Professional picture"
