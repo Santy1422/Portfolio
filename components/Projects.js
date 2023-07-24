@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 import styles from './styles.module.css';
 
@@ -61,7 +60,7 @@ const Projects = () => {
               {project.live.length > 5 ? (
                 <Link href={project.live} target="_blank" className={`rounded-lg ${styles.button} text-base p-2 flex justify-center items-center gap-x-4 hover:border-[#5C8A3E]/40 hover:text-white`}>
                   <span className='hidden sm:block'>Live</span>
-                  <Image src='/live.svg' width={16} height={16} alt='live icon' />
+                  <img src='/live.svg' width={16} height={16} alt='live icon' />
                 </Link>
               ) : null}
               <Link target="_blank" href={project.git} className={`rounded-lg ${styles.button} text-base p-2 hover:border-[#5C8A3E]/40 hover:text-white flex justify-center items-center gap-x-2`} >
