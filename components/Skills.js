@@ -4,6 +4,7 @@ import {TbBrandNextjs, TbBrandJavascript,TbBrandTailwind, TbBrandHtml5 } from 'r
 import {FaReact, FaBootstrap, FaSass, FaGitAlt } from 'react-icons/fa'
 import {SiRubyonrails, SiRedux, SiMysql, SiGraphql, SiMongodb, SiCss3, SiNodedotjs, SiExpress, SiPostgresql, SiJava, SiWebpack } from 'react-icons/si'
 import styles from './styles.module.css'
+import Image from 'next/image'
 
 
 const Skills = () => {
@@ -95,7 +96,7 @@ const Skills = () => {
       <div className={mainContainer}>
         <div className={` ${submainContainer} ${commonStyles}`}>
           
-          <img className='w-full h-full' src='/sanity.webp' alt='sanity logo'  width={60} height={60} />
+          <Image className='w-full h-full' src='/sanity.webp' alt='sanity logo'  width={60} height={60} />
         </div>
 
         <div className={`${childContainer} z-10`}>

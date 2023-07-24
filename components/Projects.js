@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import styles from './styles.module.css';
+import Image from 'next/image';
 
 const Projects = () => {
   const projects = [
@@ -44,7 +45,7 @@ const Projects = () => {
               transition={{ duration: 1.2, delay: 0.3 }}
               whileInView={{ y: 0, opacity: 1 }}
             >
-              <img
+              <Image
                 src={project.pic}
                 alt="project"
                 className='w-60'

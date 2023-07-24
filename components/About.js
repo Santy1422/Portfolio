@@ -1,5 +1,6 @@
 import {motion } from 'framer-motion';
 import styles from './styles.module.css'
+import Image from 'next/image';
 
 
 
@@ -17,7 +18,7 @@ const About = () => {
         <motion.div className='md:hidden justify-center items-center  float-right  w-36 h-36'>
 
         
-          <img
+          <Image
 
             // initial ={{
             //   x: -200,
