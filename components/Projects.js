@@ -60,12 +60,10 @@ const Projects = () => {
               {project.live.length > 5 ? (
                 <Link href={project.live} target="_blank" className={`rounded-lg ${styles.button} text-base p-2 flex justify-center items-center gap-x-4 hover:border-[#5C8A3E]/40 hover:text-white`}>
                   <span className='hidden sm:block'>Live</span>
-                  <img src='/live.svg' width={16} height={16} alt='live icon' />
                 </Link>
               ) : null}
               <Link target="_blank" href={project.git} className={`rounded-lg ${styles.button} text-base p-2 hover:border-[#5C8A3E]/40 hover:text-white flex justify-center items-center gap-x-2`} >
                 <span className='hidden sm:block'>GitHub</span>
-                <img src='/github.svg' width={16} height={16} alt='live icon' />
               </Link>
             </div>
             <div className='w-full bg-blue-400 ltf-0 h-[3px] mt-4 -skew-y-0' />
