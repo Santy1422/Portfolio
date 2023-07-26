@@ -16,11 +16,11 @@ import BackgroundCircle from "./BackgroundCircle";
 const Introduction = () => {  
   const [displayMenu, setDisplayMenu] = useState(true);
   return (
-    <div className="h-screen flex xs:mt-40 first-letter: flex-col justify-center items-center overflow-hidden text-center space-y-8">
+    <div className="h-screen flex xs:mt-40 first-letter: flex-col justify-center items-center overflow-hidden  space-y-8">
       <div className="fixed z-50 top-24 left-4 text-lg">
-      {displayMenu
+      {/* {displayMenu
       ? 
-      <button onClick={()=>setDisplayMenu(!displayMenu)}><BiMenu className="text-4xl bg-slate-300 text-[rgb(36,36,36)] self-start " /></button> 
+      <button onClick={()=>setDisplayMenu(!displayMenu)}><BiMenu className="text-4xl  mb-48 text-[rgb(36,36,36)] self-start " /></button> 
       :
       <div className="fixed z-50 top-0 left-0 right-0 bottom-0 text-lg bg-white text- bg-opacity-70  duration-200">
         <div className=" fixed top-0 left-0 bg-blend-overlay right-[15%] es:right-[40%] md:right-[60%] bottom-0  pt-10 pl-10 flex justify-between items-start text-whitebg-[rgb(36,36,36)] pr-5 ">
@@ -55,7 +55,7 @@ const Introduction = () => {
           <button onClick={()=> setDisplayMenu(!displayMenu)} className="hover:text-orange-400"><IoClose className="text-4xl bg-[rgb(36,36,36)] text-slate-300 "  /></button>
       </div>
       </div>
-      }
+      } */}
       </div>
       <BackgroundCircle />
       <div>

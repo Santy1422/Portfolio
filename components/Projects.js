@@ -23,21 +23,26 @@ const Projects = () => {
  
   ];
 
+ 
   return (
-    <div className='mb-16 relative text-center max-w-4/5 mx-auto items-center'>
+    <div className="mb-16 relative text-center mx-auto">
       <h3 className={`font-bold ${styles.headertext} uppercase tracking-[10px] es:tracking-[15px] sm:tracking-[20px] text-white text-4xl`}>projects</h3>
-      <div className='grid sm:grid-cols-1 xl:grid-cols-1 3xl:w-3/4 gap-7 md:gap-14 p-5 md:p-14 relative mt-10'>
-        {projects.map((project, i) => (
-          <motion.div
-            key={i + 1}
-            initial={{
-              y: -200,
-              opacity: 0,
-            }}
-            transition={{ duration: 1.2 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            className={`flex-shrink-0 hover:scale-110 duration-[1.25s] flex flex-col items-center justify-center py-6 px-3 ${styles.expericenceBorder} ${i === 1 ? styles.highlightedProject : ''}`}
-          >
+      <div className="flex justify-center"> {/* Agregamos la clase 'justify-center' para centrar las cartas */}
+        <div className="grid sm:grid-cols-1 xl:grid-cols-1 3xl:w-3/4 gap-7 md:gap-14 p-5 md:p-14 relative mt-10">
+      {projects.map((project, i) => (
+        <motion.div
+          key={i + 1}
+          initial={{
+            y: -200,
+            opacity: 0,
+          }}
+          transition={{ duration: 1.2 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          className={`flex-shrink-0 hover:scale-110 duration-[1.25s] flex flex-col items-center justify-center py-6 px-3 ${styles.expericenceBorder} ${i === 1 ? styles.highlightedProject : ''}`}
+          style={{
+            background: 'rgba(0, 128, 255, 0.2)', // Agrega un fondo azul transparente
+          }}
+        >
             <motion.div
               initial={{
                 y: -200,
@@ -54,6 +59,7 @@ const Projects = () => {
                 height={150}
               />
             </motion.div>
+
             <div className='p-4 max-w-4xl'>
               <h4 className={`text-2xl sm:text-4xl md:text-4xl font-semibold text-white py-2 ${i === 1 ? 'text-[#5C8A3E]' : ''}`}>{project.title}</h4>
               <p className='text-base sm:text-xl text-justify space-x-1 break-all text-white'>{project.description}</p>
@@ -76,6 +82,8 @@ const Projects = () => {
       </div>
       <div className='w-full absolute top-[45%] bg-[#5C8A3E]/10 ltf-0 h-[400px] -skew-y-12 z-0' />
     </div>
+    </div>
+
   );
 };
 
